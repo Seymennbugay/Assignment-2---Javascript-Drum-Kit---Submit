@@ -1,0 +1,33 @@
+/* styles.css */
+
+body {
+    background-color: #d1bc1c;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff5733; /* Canlı Turuncu */
+    text-shadow: 2px 2px #900c3f; /* Koyu Kırmızı Gölge */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-custom {
+    background-color: #ffc300; /* Parlak Sarı */
+    border: none;
+    color: #ff5733; /* Canlı Turuncu */
+    font-weight: bold;
+    box-shadow: 2px 2px 5px #900c3f; 
+    font-size: xx-large;
+}
+
+.btn-custom:hover {
+    background-color: #ff5733; /* Canlı Turuncu */
+    color: #ffc300; /* Parlak Sarı */
+    box-shadow: 2px 2px 10px #900c3f; /* Daha Yoğun Koyu Kırmızı Gölge */
+}
+

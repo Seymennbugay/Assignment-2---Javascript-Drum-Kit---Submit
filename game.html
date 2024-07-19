@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davul Oyunu</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        .img-fluid {
+            border-radius: 50%;
+            width: 200px; /* Tüm resimleri aynı genişlikte yapar */
+            height: 200px; /* Tüm resimleri aynı yükseklikte yapar */
+            object-fit: cover; /* Resimlerin boyutlarını koruyarak kesme yapar */
+        }
+        .shadow-effect {
+            box-shadow: 0 0 15px 5px red;
+            transition: box-shadow 0.5s ease;}
+    </style>
+</head>
+<body>
+
+<div class="container text-center mt-5">
+    <!-- header part-->
+    <h1 class="mb-4">Let's Make Music Click That Images For Beats!!!!</h1>
+
+    <!-- Resim Kısmı -->
+    <div class="row">
+        <!-- Boom  sound-->
+        <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <img src="images/i (1).webp" alt="Davul Oyunu 1" class="img-fluid" id="drumImage">
+        </div>
+        <!-- Clap sound -->
+        <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <img src="images/i.webp" alt="Davul Oyunu 2" class="img-fluid" id="clapImage">
+        </div>        
+        <!-- Hihat sound -->
+        <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <img src="images/FL4qqn0XoAouxXb.jpg" alt="Davul Oyunu 3" class="img-fluid" id="hihatImage">
+        </div>
+        <!--kick sound-->
+        <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <img src="images/1638024128_27-sportishka-com-p-stoika-kikboksera-krasivie-sportivnie-foto-29.jpg" alt="Davul Oyunu 4" class="img-fluid" id="kickImage">
+        </div>
+        <!--hat sound-->
+        <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <img src="images/i (2).webp" alt="Davul Oyunu 5" class="img-fluid" id="openhatImage">
+        </div>
+        <!--ride sound-->
+        <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <img src="images/Forests_Autumn_Bicycle_471777.jpg" alt="Davul Oyunu 6" class="img-fluid" id="rideImage">
+        </div>
+        
+        <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <img src="images/i (3).webp" alt="Davul Oyunu 7" class="img-fluid" id="snareImage">
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <img src="images/1682693331_papik-pro-p-smail-zadumchivii-s-rukoi-png-22.jpg" alt="Davul Oyunu 8" class="img-fluid" id="tinkImage">
+        </div>
+    </div>
+
+    <!-- Back to Home Page -->
+    <div class="text-center mt-4">
+        <button type="button" class="btn btn-lg btn-custom" onclick="location.href='index.html'">Back to Home Page</button>
+    </div>
+    <!-- Back to Home Page -->
+</div>
+
+<script src="drum.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
